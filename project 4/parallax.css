@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.p1{
+    width: 100%;
+    height: 800px;
+    background-image:url(./7442255_42133.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.p2{
+    width: 100%;
+    height: 700px;
+    background-image:url(./bowls-with-scattered-powder-table.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.p3{
+    width: 100%;
+    height: 700px;
+    background-image:url(./peacock-feather.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.p4{
+    width: 100%;
+    height: 800px;
+    background-image:url(./19187589.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h2{
+    margin: auto;
+    position: relative;
+    top: 300px;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+  p{
+    margin: auto;
+    position: relative;
+    top: 300px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Verdana;
+  }
+  .p3 h2{
+    color: white;
+  }
+  .p3 p{
+    color:white
+  }

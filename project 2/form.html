@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <form id="form">
+        <div class="form" id="form">
+        <label for="name"> First Name:*</label>
+        <input type="text" name="name" placeholder="Please enter your name" id="name" required>
+        </div>
+        <div class="form" id="form">
+            <label for=" last name"> Last Name:*</label>
+        <input type="text" name=" last name" placeholder="Please enter your name" id=" last name" required>
+        </div>
+    <div class="form" id="form">
+        <label for="email">Email:*</label>
+        <input type="email" name="email" placeholder="Enter your email address" id="email" required>
+    </div>
+    <div class="form" id="form">
+        <label for="phonenumber">Contact number:*</label>
+        <input type="number" name="Contact number" placeholder="Enter your contact number" id="phonenumber" required>
+    </div>
+    <div class="form">
+        <label for="Gender">Gender:*</label>
+        <input type="radio" name="gender" value="female" id="Gender" required>Female
+        <input type="radio" name="gender" value="male" id="Gender" required>Male
+    </div>
+    <div class="form" id="form">
+        <label for="address">Address:*</label>
+        <textarea name="address" placeholder="Enter your address" id="address" required></textarea>
+    </div>
+    <div class="form" id="form">
+        <label for="rollno">Aadhar ID:*</label>
+        <input type="number" name="rollno" placeholder="Enter your rollno" id="rollno" required>
+    </div>
+    <div class="form" id="form">
+        <label for="id" >Choose Id card:*</label>
+        <input type="file" name="file" id="id" required>
+    </div>
+    <div class="form" id="form">
+        <label for="nationality">Nationality:*</label>
+        <select name="nationality" required>
+            <option value = "State" selected>SELECT</option>
+            <option value = "State" >INDIAN</option>
+            <option value = "State" >AMERICAN</option>
+            <option value = "State" >CANADIAN</option>
+            <option value = "State" >RUSSIAN</option>
+        </select>
+    </div>
+    <div class="form">
+        <label for="relation">Do you have any relatives or friends in our offive:*</label>
+        <input type="radio" name="relation"  value="Yes" id="relation">Yes
+        <input type="radio" name="relation" value="No" id="relation">No
+    </div>
+<div class="form" id="form">
+   <input type="submit">
+</div>
+    </form>
+</body>
+</html>
